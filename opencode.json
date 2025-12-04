@@ -1,6 +1,13 @@
 {
-  "$schema": "https://opencode.ai/config.json",
-  "theme": "system",
-  "share": "disabled",
-  "autoupdate": false,
+	"$schema": "https://opencode.ai/config.json",
+	"share": "disabled",
+	"permission": {
+		 "bash": "allow"
+	 },
+	"autoupdate": false,
+	"keybinds": {
+		"input_paste": "ctrl+y",
+		"messages_page_down": "ctrl+v",
+		"messages_page_up": "alt+v"
+	}
 }
